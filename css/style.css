@@ -96,6 +96,10 @@ body {
     color: white;
 }
 
+#mobile-view .menu-item a {
+    color: white;
+}
+
 /* section 1 starts */
 .section1-container {
     display: flex;
@@ -728,10 +732,14 @@ body {
     }
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:730px) {
     #logo-img {
         width: 116px;
         height: 25px;
+    }
+
+    .menu-item a {
+        font-size: 2.8rem;
     }
 }
 
@@ -991,6 +999,7 @@ body {
     .copyright p {
         font-size: 3.1rem;
     }
+
 }
 
 @media only screen and (max-width:480px) {

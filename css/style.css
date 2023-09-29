@@ -57,6 +57,12 @@ body {
     font-size: 18px;
 }
 
+.menu-item a {
+    color: #4a7163;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
 .nav-icons {
     display: flex;
     justify-content: center;
